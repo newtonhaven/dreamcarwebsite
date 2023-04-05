@@ -7,7 +7,7 @@
 
 function buttonFunction(carName, event) {
   console.log("carName value:", carName); // debugging statement
-  var imagePath = "./cars/";
+  var imagePath = "cars/";
   var imageSource = imagePath + carName + ".jpg";
   console.log("imageSource value:", imageSource); // debugging statement
   document.getElementById("imageContainer").src = imageSource;
