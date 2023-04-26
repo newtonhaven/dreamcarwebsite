@@ -3,7 +3,7 @@
 
 This is a simple website for car enthusiasts to explore and choose their dream cars. You can select the car's engine placement, driving, and induction type using the drop-down menus and view a corresponding image of the car. The website features a responsive design and can be viewed on various devices.
 
-[Link To the Website]( newtonhaven.github.io/dreamcarwebsite/)
+[Link To the Website](https://newtonhaven.github.io/dreamcarwebsite/)
 
 ## Usage link
 
