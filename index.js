@@ -5,6 +5,14 @@ var selectbox2 = document.getElementById('mySelect2');
 var selectbox3 = document.getElementById('mySelect3');
 //calling function for select box
 selectbox2.addEventListener("change", changer);
+function handleSelectChange() {
+  // Check if all fields are filled and not on the default disabled option
+  if (selectbox1.value !== 'enginePlacement' && selectbox2.value !== 'Driving' && selectbox3.value !== 'Induction Type') {
+    findCarButton.disabled = false;
+  } else {
+    findCarButton.disabled = true;
+  }
+}
 
 function buttonFunction(carName, event) {
   console.log("carName value:", carName); // debugging statement
