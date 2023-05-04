@@ -1,10 +1,19 @@
-
 // Getting selected Values as var
 var selectbox1 = document.getElementById('mySelect');
 var selectbox2 = document.getElementById('mySelect2');
 var selectbox3 = document.getElementById('mySelect3');
-//calling function for select box
-selectbox2.addEventListener("change", changer);
+var findCarButton = document.getElementById('myButton');
+
+// Calling function for select boxes
+selectbox1.addEventListener("change", handleChange);
+selectbox2.addEventListener("change", handleChange);
+selectbox3.addEventListener("change", handleSelectChange);
+
+function handleChange() {
+  changer();
+  handleSelectChange();
+}
+
 function handleSelectChange() {
   // Check if all fields are filled and not on the default disabled option
   if (selectbox1.value !== 'enginePlacement' && selectbox2.value !== 'Driving' && selectbox3.value !== 'Induction Type') {
