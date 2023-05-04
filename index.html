@@ -14,27 +14,25 @@
     <form name="dreamCarFinder">
       <div class="event">
 
-        <select id="mySelect" size="4">
+        <select id="mySelect">
           <option value="enginePlacement" disabled="disabled" selected>Engine Placement</option>
           <option value="front">Front Engine</option>
           <option value="mid">Mid Engine</option>
           <option value="rear">Rear Engine</option>
         </select>
 
-        <select id="mySelect2" size="4">
-          <option disabled="disabled" selected>Driving</option>
+        <select id="mySelect2">
+          <option value="Driving" disabled="disabled" selected>Driving</option>
           <option value="fwd">FWD</option>
           <option value="rwd">RWD</option>
           <option value="awd">AWD</option>
         </select>
 
-        <select id="mySelect3" size="4">
-          <option disabled="disabled" selected>Induction Type</option>
+        <select id="mySelect3">
+          <option value="Induction Type" disabled="disabled" selected>Induction Type</option>
         </select>
 
-        <div class="event" style="text-align: center;">
-          <button id="myButton" onclick="buttonFunction(selectbox3.value,event)" disabled>Find Your Car!</button>
-        </div>
+        <button id="myButton" style="text-align: center;" onclick="buttonFunction(selectbox3.value,event)" disabled>Find Your Car!</button>
 
         <div class="event" style="text-align: center;">&nbsp;</div>
 
