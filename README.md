@@ -1,7 +1,7 @@
 # [Dream Car Finder Website](https://github.com/newtonhaven/dreamcarwebsite)
-### Find your true dream car!!1!
+### Find your TRUE dream car that you don't even know!
 
-This is a simple website for car enthusiasts to explore and find their dream cars. You can select the car's engine placement, driving, and induction type using the drop-down menus and view a corresponding image of the car. The website features a responsive design and can be viewed on various devices.
+This is a website for car enthusiasts to explore and find their ture dream cars. You can select the car's engine placement, driving, and induction type using the drop-down menus and view a corresponding image of the car. The website features a responsive design and can be viewed on various devices.
 
 [Webside Link dreamcarfinder.net/](https://www.dreamcarfinder.net/)
 
@@ -18,6 +18,12 @@ Click the "Find Your Dream Car" button
 ## Contributing
 
 Contributions to the Dream Car Website are welcome. Please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the terms of the MIT license. Please see the [LICENSE](LICENSE) file for more details.
+
+
 
 ## Acknowledgments
 
