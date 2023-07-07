@@ -19,12 +19,6 @@ Click the "Find Your Dream Car" button
 
 Contributions to the Dream Car Website are welcome. Please feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the terms of the MIT license. Please see the [LICENSE](LICENSE) file for more details.
-
-
-
 ## Acknowledgments
 
 The car images used in this project are from [Pexels](https://www.pexels.com).
