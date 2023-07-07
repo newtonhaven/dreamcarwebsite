@@ -19,6 +19,10 @@ Click the "Find Your Dream Car" button
 
 Contributions to the Dream Car Website are welcome. Please feel free to open an issue or submit a pull request.
 
+## License
+
+The software of this product is licensed under the [GNU General Public License v3.0](LICENSE).
+
 ## Acknowledgments
 
 The car images used in this project are from [Pexels](https://www.pexels.com).
