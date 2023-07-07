@@ -21,9 +21,7 @@ Contributions to the Dream Car Website are welcome. Please feel free to open an 
 
 ## License
 
-This project is licensed under the terms of the MIT license. Please see the [LICENSE](LICENSE) file for more details.
-
-
+The software of this product is licensed under the [GNU General Public License v3.0](LICENSE).
 
 ## Acknowledgments
 
