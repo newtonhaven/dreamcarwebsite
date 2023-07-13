@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>DreamCarFinder</title>
-        <style>
-        p {text-align: center;}
+
+<head>
+    <title>DreamCarFinder</title>
+    <style>
+        p {
+            text-align: center;
+        }
+
+        .selector {
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            width: 70%;
+            padding: 5px;
+            border: solid #ffffff;
+            border-radius: 15px;
+            box-sizing: border-box;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+
         .center {
-        margin: auto;
-        width: 60%;
-        border: 3px solid #bd1919;
-        padding: 10px;
-        text-align: center;
-        }
-        .center2 {
-        margin: auto;
-        width: 60%;
-        padding: 10px;
-        text-align: center;
-        }
-            </style>
-    </head>
+            text-align: center;
+            margin: auto;
+            width: 100%;
+            padding: 10px;
 
-    <body>
-        <h1 class="center"><a href="index.html">
-        <img src="site/title.png" alt ="shitboxfinder" style="width: 50%;height: 50%;"></a></h1>
-        <p class="center" id="subtitle"> Welcome to the home of shitboxes </p>
-            <!-- PERSONALITY TEST - -- REVERSE DREAM CAR FINDER -- 
-            Single Shitboxes in your are(disclamer) -- starbucks drink -----   -->
-        
-        <h2 class="center2" >
+        }
+
+        body {
+            background-image: url('site/bg.jpg');
+            grid-auto-flow: column;
+            grid-column-gap: 10px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="center">
+        <!--  TITLE  -->
+        <a href="index.html">
+            <img src="site/title.png" alt="shitboxfinder" style="width: 50%;height: 50%;">
+        </a>
+    </h1>
+
+    <p class="center" id="subtitle"> Welcome to the home of shitboxes </p>
+    <div>
+        <h2 class="selector">
+            <!--  IMAGES OF PAGES  -->
             <a href="config.html">
-            <img src="site/test.jpg" alt ="Tester MAdifaki" style="width: 50%;height: 50%;">
+                <img src="site/test.jpg" alt="Tester MAdifaki" style="width: 100%;height: 100%;">
             </a>
-
             <a href="catscars.html">
-                <img src="site/test2.jpg" alt ="Tester MAdifaki" style="width: 50%;height: 50%;">
+                <img src="site/test2.jpg" alt="Tester MAdifaki" style="width: 100%;height: 100%;">
             </a>
             <a href="starducks.html">
-                <img src="site/test3.jpg" alt ="Tester MAdifaki" style="width: 50%;height: 50%;">
+                <img src="site/test3.jpg" alt="Tester MAdifaki" style="width: 100%;height: 100%;">
             </a>
             <a href="fakead.html">
-                <img src="site/ad.jpg" alt ="%100realAdNotaStupidJoke" style="width: 50%;height: 50%;">
+                <img src="site/ad.jpg" alt="%100realAdNotaStupidJoke" style="width: 100%;height: 100%;">
             </a>
         </h2>
-        <b>
-            <div class="center2"> 
-            <a href = "https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE" target = "_top">The software of this product is licensed under the GNU General Public License v3.0. </a>
-        </div>
-        </b>
-        <p>
-            (DISCLAIMER: This website is intended for comedic purposes only. 
-            We explicitly state that we are not liable for any damage to your car or your health.
-            Please use this website responsibly and understand that its content is not to be taken seriously.)
-        </p>
-    </body>
+    </div>
+    <p>
+        <!--  LISENCE  -->
+        <a href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE" target="_top">The software of this
+            product is licensed under the GNU General Public License v3.0. </a>
+    </p>
+    <p>
+        <!--  DISCLAIMER  -->
+        (DISCLAIMER: This website is intended for comedic purposes only.
+        We explicitly state that we are not liable for any damage to your car or your health.
+        Please use this website responsibly and understand that its content is not to be taken seriously.)
+    </p>
+</body>
+
 </html>

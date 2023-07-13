@@ -4,13 +4,27 @@
 <head>
     <title>DreamCarFinder</title>
     <style>
-        p {text-align: center;}
+        p {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px;
+            margin: auto;
+            font-size: 30px;
+            border-radius: 10px;
+            background-color: #4CAF50;
+            color: rgb(255, 255, 255);
+            border: none;
+        }
+
         .center {
-        margin: auto;
-        width: 60%;
-        border: 3px solid #bd1919;
-        padding: 10px;
-        text-align: center;
+            margin: auto;
+            width: 60%;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 40px;
+
         }
 
         .grid3x3 {
@@ -33,27 +47,62 @@
             max-width: 80%;
             max-height: 80%;
         }
+
+        body {
+            text-align: center;
+            margin: auto;
+        }
+
+        .selector {
+            text-align: center;
+            margin: auto;
+            margin-bottom: 50px;
+        }
     </style>
-    </head>
-    <body>
-        <h1 class= center><a href="index.html">
-            <img src="site/title.png" alt ="shitboxfinder" style="width: 50%;height: 50%;"></a></h1>
-            <p class= center id="subtitle"> Welcome to the home of shitboxes </p>
-        <h2>
-            <div class="grid3x3">
-            <div><img src="http://placekitten.com/200/300"></div>
-            <div><img src="http://placekitten.com/240/300"></div>
-            <div><img src="http://placekitten.com/400/300"></div>
-            <div><img src="http://placekitten.com/280/300"></div>
-            <div><img src="http://placekitten.com/210/140"></div>
-            <div><img src="http://placekitten.com/240/200"></div>
-            <div><img src="http://placekitten.com/100/300"></div>
-            <div><img src="http://placekitten.com/200/100"></div>
-            <div><img src="http://placekitten.com/700/300"></div>
-            </div>
-        </h2>
-        <p>
-            (DISCLAIMER: This website believes in cat supremacy.)
-        </p>
-    </body>
+</head>
+
+<body>
+    <h1 class=center><a href="index.html">
+            <img src="site/title.png" alt="shitboxfinder" style="width: 50%;height: 50%;"></a>
+    </h1>
+    <p class=center id="subtitle"> Welcome to the home of shitboxes </p>
+    <h2>
+        <div class="grid3x3">
+            <div><img src="cats/1.jpg"></div>
+            <div><img src="cats/2.jpg"></div>
+            <div><img src="cats/23.jpg"></div>
+            <div><img src="cats/adh.jpg"></div>
+            <div><img src="cats/asd.jpg"></div>
+            <div><img src="cats/orange.jpg"></div>
+            <div><img src="cats/sd.jpg"></div>
+            <div><img src="cats/tgzsd.jpg"></div>
+            <div><img src=""></div>
+        </div>
+    </h2>
+    <div class="selector">
+        <h3>
+            <select name="cat">
+                <option value="cats" disabled="disabled" selected>Car By Cat</option>
+                <option value="persian"> Persian Cat</option>
+                <option value="siamese"> Siamese Cat</option>
+                <option value="mainecoon"> Maine Coon</option>
+                <option value="savannah"> Savannah</option>
+                <option value="scottish">Scottish Cat</option>
+                <option value="sphynx"> Sphynx Cat</option>
+                <option value="bornana"> Domestic Orange</option>
+                <option value="black"> Domestic Black</option>
+                <option value="9thslot"> ENTER TEXT HERE </option>
+            </select>
+        </h3>
+    </div>
+    <h4>
+    <img id="imageContainer" src="cars/moon.jpg" style="width: 50%; height: 50%;">
+    </h4>
+    <button id="myButton" style="text-align: center;" onclick="buttonFunction(selectbox3.value,event)" disabled>Find
+        Your Car!</button>
+    <p>
+        (DISCLAIMER: This website believes in cat supremacy.)
+    </p>
+</body>
+
 </html>
