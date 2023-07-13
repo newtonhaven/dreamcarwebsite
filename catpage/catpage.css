@@ -1,0 +1,37 @@
+p {text-align: center;}
+
+button {
+    padding: 10px;
+    margin: auto;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #00acf7;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+select[name="cat"] {
+    font-size: 30px;
+    color: #333;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 5px;
+}

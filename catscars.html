@@ -3,47 +3,8 @@
 
 <head>
     <title>DreamCarFinder</title>
-    <style>
-        p {
-            text-align: center;
-        }
-
-        button {
-            padding: 10px;
-            margin: auto;
-            font-size: 30px;
-            border-radius: 10px;
-            background-color: #4CAF50;
-            color: rgb(255, 255, 255);
-            border: none;
-        }
-
-        .center {
-            margin: auto;
-            width: 60%;
-            text-align: center;
-            margin-top: 30px;
-            margin-bottom: 40px;
-
-        }
-
-        body {
-            text-align: center;
-            margin: auto;
-        }
-
-        select[name="cat"] {
-            font-size: 30px;
-            color: #333;
-            background-color: #f2f2f2;
-            border: 1px solid #ccc;
-            border-radius: 10px;
-            text-align: center;
-            margin: auto;
-            margin-bottom: 30px;
-            padding: 5px;
-        }
-    </style>
+    <script type="text/javascript" src="catpage/catpage.js" defer=""></script>
+    <link rel="stylesheet" href="catpage/catpage.css">
 </head>
 
 <body>
@@ -52,7 +13,7 @@
     </h1>
     <p class=center id="subtitle"> Welcome to the home of shitboxes </p>
     <h2>
-        <img id="imageContainer" src="cats/menu.jpg" style="width: 80%; height: 80%;">
+        <img id="imageContainer" src="cats/menu.jpg" style="width: 60%; height: 60%;">
     </h2>
     <div class="selector">
         <h3>
@@ -69,27 +30,14 @@
                 <option value="zelda"> Your Cat Zelda </option>
             </select>
         </h3>
-        <button id="Button" style="text-align: center;" onclick="buttonFunction(catSelection.value,event)" disabled>Find
-            Your Car!</button>
+        <button id="Button" style="text-align: center;" onclick="buttonFunction(catSelection.value,event)">Find Your Car!</button>
     </div>
     <h4>
-        <img id="imageContainer" src="site/test2.jpg" style="width: 50%; height: 50%;">
+        <img id="imageContainer2" src="site/test2.jpg" style="width: 50%; height: 50%;">
     </h4>
     <p>
         (DISCLAIMER: This website believes in cat supremacy.)
     </p>
-    <script>
-        var catSelection1 = document.getElementById('catSelection');
-
-        function buttonFunction(catSelection1, event) {
-            console.log("catSelection1 value:", catSelection1); // debugging statement
-            var imagePath = "cats/";
-            var imageSource = imagePath + catSelection1 + ".jpg";
-            console.log("imageSource value:", imageSource); // debugging statement
-            document.getElementById("imageContainer").src = imageSource;
-            event.preventDefault(); // prevent form from submitting
-        }
-    </script>
 </body>
 
 </html>
