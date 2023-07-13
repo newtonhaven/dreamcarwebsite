@@ -27,36 +27,21 @@
 
         }
 
-        .grid3x3 {
-            width: 300px;
-            height: 300px;
-            clear: both;
-            margin: auto;
-        }
-
-        .grid3x3>div {
-            width: 100px;
-            height: 100px;
-            float: left;
-            line-height: 100px;
-        }
-
-        .grid3x3>div>img {
-            display: inline-block;
-            vertical-align: middle;
-            max-width: 80%;
-            max-height: 80%;
-        }
-
         body {
             text-align: center;
             margin: auto;
         }
 
-        .selector {
+        select[name="cat"] {
+            font-size: 30px;
+            color: #333;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            border-radius: 10px;
             text-align: center;
             margin: auto;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
+            padding: 5px;
         }
     </style>
 </head>
@@ -67,21 +52,11 @@
     </h1>
     <p class=center id="subtitle"> Welcome to the home of shitboxes </p>
     <h2>
-        <div class="grid3x3">
-            <div><img src="cats/1.jpg"></div>
-            <div><img src="cats/2.jpg"></div>
-            <div><img src="cats/23.jpg"></div>
-            <div><img src="cats/adh.jpg"></div>
-            <div><img src="cats/asd.jpg"></div>
-            <div><img src="cats/orange.jpg"></div>
-            <div><img src="cats/sd.jpg"></div>
-            <div><img src="cats/tgzsd.jpg"></div>
-            <div><img src=""></div>
-        </div>
+        <img id="imageContainer" src="cats/menu.jpg" style="width: 80%; height: 80%;">
     </h2>
     <div class="selector">
         <h3>
-            <select name="cat">
+            <select name="cat" id="catSelection">
                 <option value="cats" disabled="disabled" selected>Car By Cat</option>
                 <option value="persian"> Persian Cat</option>
                 <option value="siamese"> Siamese Cat</option>
@@ -91,18 +66,30 @@
                 <option value="sphynx"> Sphynx Cat</option>
                 <option value="bornana"> Domestic Orange</option>
                 <option value="black"> Domestic Black</option>
-                <option value="9thslot"> ENTER TEXT HERE </option>
+                <option value="zelda"> Your Cat Zelda </option>
             </select>
         </h3>
+        <button id="Button" style="text-align: center;" onclick="buttonFunction(catSelection.value,event)" disabled>Find
+            Your Car!</button>
     </div>
     <h4>
-    <img id="imageContainer" src="cars/moon.jpg" style="width: 50%; height: 50%;">
+        <img id="imageContainer" src="site/test2.jpg" style="width: 50%; height: 50%;">
     </h4>
-    <button id="myButton" style="text-align: center;" onclick="buttonFunction(selectbox3.value,event)" disabled>Find
-        Your Car!</button>
     <p>
         (DISCLAIMER: This website believes in cat supremacy.)
     </p>
+    <script>
+        var catSelection1 = document.getElementById('catSelection');
+
+        function buttonFunction(catSelection1, event) {
+            console.log("catSelection1 value:", catSelection1); // debugging statement
+            var imagePath = "cats/";
+            var imageSource = imagePath + catSelection1 + ".jpg";
+            console.log("imageSource value:", imageSource); // debugging statement
+            document.getElementById("imageContainer").src = imageSource;
+            event.preventDefault(); // prevent form from submitting
+        }
+    </script>
 </body>
 
 </html>
