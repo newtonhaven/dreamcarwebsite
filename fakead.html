@@ -1,61 +1,75 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>shitBoxFinderAd</title>
     <style>
-        body {
-        background-image: url('site/bgfake.jpg');
-        grid-auto-flow: column;
-        grid-column-gap: 10px;
-    }
-
-        div  {
-            border: solid #ffffff;
-            padding: 10px;
-            text-align: center;
-            background-color:rgb(255, 255, 255);
-            border-radius: 15px;     
-            box-sizing: border-box;
-            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-        }
-
-        h1  {text-align: center;}
-
-        p   {text-align: center;}
-        
+      @media (max-width: 768px) {
         .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 60%;
+          flex-direction: column; /* Stack images vertically */
+          text-align: center;
+          height: 100%;
         }
+        .center img {
+          height: 100%;
+        }
+      }
+      
+      body {background-image: url("site/bgfake.jpg");}
+
+      h1 {text-align: center;}
+
+      p {
+        text-align: center;
+        background-color: #1b1a2c88;
+        -webkit-text-fill-color: #ffffff;
+        font-size: 30px;
+        text-shadow: #000000;
+      }
+
+      .center {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+
+      .center img {
+        border: 1px solid #ccc;
+        object-fit: cover;
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
+  <body>
     <h1> <!--  TITLE  -->
-        <a href="index.html">
-            <img src="site/title.png" alt="shitboxfinder" style="width: 50%; height: 50%;">
-        </a>
+      <a href="index.html">
+        <img
+          src="site/faketitle.png"
+          alt="shitboxfinder"
+          style="width: 30%; height: 30%"
+        /></a>
     </h1>
-    <div class=center> <!--  IMAGES OF PAGES  -->
-        <a href="https://www.google.com/maps/search/junk+yard/">
-            <img src="site/ad2.jpg" alt="shitboxfinder" style="width: 100%; height: 100%;">
-        </a>
+
+    <div class="center"> <!--  IMAGES OF PAGES  -->
+      <a href="https://www.google.com/maps/search/junk+yard/">
+        <img
+          src="site/ad2.jpg"
+          alt="shitboxfinder"
+          style="width: 50%; height: 50%"
+        /></a>
         <a href="https://www.youtube.com/@chrisfix">
-            <img src="site/chrisfix.jpg" alt="chrisfix" style="width: 100%; height: 100%;">
-
-        </a>
+        <img
+          src="site/chrisfix.jpg"
+          alt="chrisfix"
+          style="width: 50.1%; height: 50.1%"
+        /></a>
     </div>
-    <p> <!--  DISCLAIMER  -->
-        (DISCLAIMER: This website is intended for comedic purposes only.
-        We explicitly state that we are not liable for any damage to your car or your health.
-        The map provided on this website is purely for entertainment and displays random junkyards with no actual
-        relevance.
-        Please use this website responsibly and understand that its content is not to be taken seriously.)
+    <p><!--  DISCLAIMER  -->
+      (DISCLAIMER: This website is intended for comedic purposes only. We
+      explicitly state that we are not liable for any damage to your car or your
+      health. The map provided on this website is purely for entertainment and
+      displays random junkyards with no actual relevance. Please use this
+      website responsibly and understand that its content is not to be taken
+      seriously.)
     </p>
-</body>
-
+  </body>
 </html>

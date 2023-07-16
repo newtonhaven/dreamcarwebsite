@@ -29,3 +29,7 @@ The software of this product is licensed under the [GNU General Public License v
 The car images used in this project are from [Pexels](https://www.pexels.com).
 
 The responsive design is based on the [Bootstrap](https://getbootstrap.com/) framework.
+
+[Downdate](https://opengameart.org/content/cartoony-sky)
+
+[Gabottles](https://opengameart.org/content/handpainted-tileable-wall)
