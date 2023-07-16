@@ -33,3 +33,5 @@ The responsive design is based on the [Bootstrap](https://getbootstrap.com/) fra
 [Downdate](https://opengameart.org/content/cartoony-sky)
 
 [Gabottles](https://opengameart.org/content/handpainted-tileable-wall)
+
+[kiranshastry](https://www.flaticon.com/authors/kiranshastry)
