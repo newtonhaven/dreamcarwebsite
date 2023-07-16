@@ -1,4 +1,5 @@
 # [Dream Car Finder Website](https://github.com/newtonhaven/dreamcarwebsite)
+
 ### Find your TRUE dream car that you don't even know!
 
 This is a website for car enthusiasts to explore and find their ture dream cars. You can select the car's engine placement, driving, and induction type using the drop-down menus and view a corresponding image of the car. The website features a responsive design and can be viewed on various devices.
@@ -28,3 +29,9 @@ The software of this product is licensed under the [GNU General Public License v
 The car images used in this project are from [Pexels](https://www.pexels.com).
 
 The responsive design is based on the [Bootstrap](https://getbootstrap.com/) framework.
+
+[Downdate](https://opengameart.org/content/cartoony-sky)
+
+[Gabottles](https://opengameart.org/content/handpainted-tileable-wall)
+
+[kiranshastry](https://www.flaticon.com/authors/kiranshastry)

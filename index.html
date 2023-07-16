@@ -2,45 +2,135 @@
 <html>
   <head>
     <title>DreamCarFinder</title>
-    <script type="text/javascript" src="index.js" defer=""></script>
-    <link rel="stylesheet" href="index.css">
+    <style>
+      
+      @media (max-width: 768px) {
+        .selector {
+          flex-direction: column; /* Stack images vertically */
+            min-width: 80%; /* Adjust the width as needed */
+            min-height: 80%;
+            max-width: 80%;
+            min-width: 80%;
+        }
+      }
+
+      p {
+        text-align: center;
+        background-color: #1b1a2c88;
+        -webkit-text-fill-color: #ffffff;
+        font-size: 30px;
+        text-shadow: #000000;
+      }
+
+      .fakead {
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+        padding: 15px;
+      }
+
+      .divBG {
+        background-color: #3c58b3;
+        border: solid #3c58b3;
+        border-radius: 3px;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+        margin-left: 10px;   
+      }
+
+      .selector {
+        text-align: center;
+        width: 50%; /* MENU IMGs SIZES */
+        padding: 5px;
+        display: flex; /* Display images in a row */
+        justify-content: space-between; /* Add space between images */
+        align-items: center; /* Center images vertically */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 50px;
+      }
+
+      .center {
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+      }
+
+      body {background-image: url("site/bg.jpg");}
+      
+    </style>
   </head>
 
   <body>
-    <h2 id="title">Dream Car Finder</h2>
-    <p id="author"> made by @carmemelounge </p>
-    <p id="author"> (it may take time to load the img pls be patient)  </p>
+    <h1 class="center">
+      <!--  TITLE  -->
+      <a href="index.html">
+        <img
+          src="site/title.png"
+          alt="shitboxfinder"
+          style="width: 50%; height: 50%"
+        />
+      </a>
+    </h1>
 
-    <form name="dreamCarFinder">
-      <div class="event">
+    <p class="center" id="subtitle">a Website That Worse than your Rusty Project Car</p>
 
-        <select id="mySelect">
-          <option value="enginePlacement" disabled="disabled" selected>Engine Placement</option>
-          <option value="front">Front Engine</option>
-          <option value="mid">Mid Engine</option>
-          <option value="rear">Rear Engine</option>
-        </select>
-
-        <select id="mySelect2">
-          <option value="Driving" disabled="disabled" selected>Driving</option>
-          <option value="fwd">FWD</option>
-          <option value="rwd">RWD</option>
-          <option value="awd">AWD</option>
-        </select>
-
-        <select id="mySelect3">
-          <option value="Induction Type" disabled="disabled" selected>Induction Type</option>
-        </select>
-
-        <button id="myButton" style="text-align: center;" onclick="buttonFunction(selectbox3.value,event)" disabled>Find Your Car!</button>
-
-        <div class="event" style="text-align: center;">&nbsp;</div>
-
-        <img id="imageContainer" src="cars/moon.jpg">
-        <b>
-        </b>
-      </div><b>
-      </b>
-    </form>
+      <h2 class="selector"><!--  IMAGES OF PAGES  -->
+        <div class="divBG">
+        <a href="config.html">
+          <img
+            src="site/config.jpg"
+            alt="Tester MAdifaki"
+            style="width: 100%; height: 100%"
+          />
+        </a>
+      </div>
+      <div class="divBG">
+        <a href="catscars.html">
+          <img
+            src="site/catpage.jpg"
+            alt="Tester MAdifaki"
+            style="width: 100%; height: 100%"
+          />
+        </a>
+      </div>
+      <div>
+        <a href="bestoftheworstyepthatsaredlettermedia(copy)refference.html">
+          <img
+            src="site/test3.jpg"
+            alt="Tester MAdifaki"
+            style="width: 100%; height: 100%"
+          />
+        </a>
+      </div>
+      </h2>
+    <a href="fakead.html">
+    <h3 class="fakead">    
+      <img
+        src="site/ad.jpg"
+        alt="%100realAdNotaStupidJoke"
+        style="width: 50%; height: 50%"
+      />
+        </a>
+    </h3>
+    <p>
+      <!--  LISENCE  -->
+      <a
+        href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE"
+        target="_top"
+        >The software of this product is licensed under the GNU General Public
+        License v3.0.
+      </a>
+    </p>
+    <p>
+      <!--  DISCLAIMER  -->
+      (DISCLAIMER: This website is intended for comedic purposes only. We
+      explicitly state that we are not liable for any damage to your car or your
+      health. Please use this website responsibly and understand that its
+      content is not to be taken seriously.)
+    </p>
   </body>
 </html>

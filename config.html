@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DreamCarFinder</title>
+    <script type="text/javascript" src="config/config.js" defer=""></script>
+    <link rel="stylesheet" href="config/config.css" />
+  </head>
+
+  <body>
+    <h1 style="catpage/catpage.css;"> <!--  TITLE  -->
+      <a href="index.html">
+        <img
+          src="site/title.png"
+          alt="shitboxfinder"
+          style="width: 30%; height: 30%"
+        />
+      </a>
+    </h1>
+    <p id="author">Welcome to the home of shitboxes</p>
+
+    <form name="dreamCarFinder">
+      <div class="event">
+        <select id="mySelect">
+          <option value="enginePlacement" disabled="disabled" selected>
+            Engine Placement
+          </option>
+          <option value="front">Front Engine</option>
+          <option value="mid">Mid Engine</option>
+          <option value="rear">Rear Engine</option>
+        </select>
+
+        <select id="mySelect2">
+          <option value="Driving" disabled="disabled" selected>Driving</option>
+          <option value="fwd">FWD</option>
+          <option value="rwd">RWD</option>
+          <option value="awd">AWD</option>
+        </select>
+
+        <select id="mySelect3">
+          <option value="Induction Type" disabled="disabled" selected>
+            Induction Type
+          </option>
+        </select>
+
+        <button
+          id="myButton"
+          style="text-align: center"
+          onclick="buttonFunction(selectbox3.value,event)"
+          disabled
+        >
+          Find Your Car!
+        </button>
+
+        <p id="author">(it may take time to load the img pls be patient)</p>
+
+        <img
+          id="imageContainer"
+          src="cars/moon.jpg"
+          style="width: 50%; height: 50%"
+        />
+        <b>
+          <a
+            href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE"
+            target="_top"
+            >The software of this product is licensed under the GNU General
+            Public License v3.0.
+          </a>
+        </b>
+      </div>
+    </form>
+  </body>
+</html>
