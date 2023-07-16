@@ -3,38 +3,33 @@
   <head>
     <title>shitBoxFinderAd</title>
     <style>
-      @media (max-width: 768px) {
-        .center {
-          flex-direction: column; /* Stack images vertically */
-          text-align: center;
-          height: 100%;
-        }
-        .center img {
-          height: 100%;
-        }
-      }
       
-      body {background-image: url("site/bgfake.jpg");}
+      body {
+        background-image: url("site/bgfake.jpg");
+      }
 
-      h1 {text-align: center;}
+      h1 {
+        text-align: center;
+      }
 
       p {
         text-align: center;
         background-color: #1b1a2c88;
         -webkit-text-fill-color: #ffffff;
-        font-size: 30px;
+        font-size: 20px;
         text-shadow: #000000;
       }
 
       .center {
-        display: flex;
-        align-items: center;
-        padding: 10px;
-      }
-
-      .center img {
+          text-align: center;
+          height: 100%;
+        }
+        
+        .center img {
         border: 1px solid #ccc;
         object-fit: cover;
+        width: 60%; /* Set width to display images side by side */
+        height: auto; /* Maintain aspect ratio */
       }
     </style>
   </head>
@@ -46,23 +41,9 @@
           src="site/faketitle.png"
           alt="shitboxfinder"
           style="width: 30%; height: 30%"
-        /></a>
+        />
+      </a>
     </h1>
-
-    <div class="center"> <!--  IMAGES OF PAGES  -->
-      <a href="https://www.google.com/maps/search/junk+yard/">
-        <img
-          src="site/ad2.jpg"
-          alt="shitboxfinder"
-          style="width: 50%; height: 50%"
-        /></a>
-        <a href="https://www.youtube.com/@chrisfix">
-        <img
-          src="site/chrisfix.jpg"
-          alt="chrisfix"
-          style="width: 50.1%; height: 50.1%"
-        /></a>
-    </div>
     <p><!--  DISCLAIMER  -->
       (DISCLAIMER: This website is intended for comedic purposes only. We
       explicitly state that we are not liable for any damage to your car or your
@@ -71,5 +52,20 @@
       website responsibly and understand that its content is not to be taken
       seriously.)
     </p>
+    <div class="center"> <!--  IMAGES OF PAGES  -->
+      <a href="https://www.google.com/maps/search/junk+yard/">
+        <img
+          src="site/ad2.jpg"
+          alt="shitboxfinder"
+        />
+      </a>
+      
+      <a href="https://www.youtube.com/@chrisfix">
+        <img
+          src="site/chrisfix.jpg"
+          alt="chrisfix"
+        />
+      </a>
+    </div>
   </body>
 </html>

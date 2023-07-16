@@ -1,4 +1,7 @@
-p {text-align: center;}
+p {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 button {
     padding: 10px;
@@ -34,4 +37,16 @@ select[name="cat"] {
     margin: auto;
     margin-bottom: 30px;
     padding: 5px;
+}
+
+#carNamesText{
+    font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+#displayText{
+    font-size: 25px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+
 }
