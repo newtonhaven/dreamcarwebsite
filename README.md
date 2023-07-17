@@ -30,8 +30,10 @@ The car images used in this project are from [Pexels](https://www.pexels.com).
 
 The responsive design is based on the [Bootstrap](https://getbootstrap.com/) framework.
 
-[Downdate](https://opengameart.org/content/cartoony-sky)
+Credits: 
 
-[Gabottles](https://opengameart.org/content/handpainted-tileable-wall)
+Sky Background: [Downdate](https://opengameart.org/content/cartoony-sky)
 
-[kiranshastry](https://www.flaticon.com/authors/kiranshastry)
+Wall Background: [Gabottles](https://opengameart.org/content/handpainted-tileable-wall) 
+
+Click Icon: [kiranshastry](https://www.flaticon.com/authors/kiranshastry)
