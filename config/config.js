@@ -25,8 +25,8 @@ function handleSelectChange() {
 
 function buttonFunction(carName, event) {
   console.log("carName value:", carName); // debugging statement
-  var imagePath = "cars/";
-  var imageSource = imagePath + carName + ".jpg";
+  var imagePath = "carIMGs/";
+  var imageSource = imagePath + carName + ".webp";
   console.log("imageSource value:", imageSource); // debugging statement
   document.getElementById("imageContainer").src = imageSource;
   event.preventDefault(); // prevent form from submitting
