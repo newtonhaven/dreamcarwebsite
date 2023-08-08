@@ -1,0 +1,33 @@
+a { color: inherit; } 
+
+html{
+    text-align: center;
+    background-color: darkgray;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    
+}
+
+footer {
+    background-color: rgb(17, 81, 134);
+    color: white;
+    padding: 13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#rotate-button {
+    background-color: #ff2800;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#imageContainer {
+    transition: transform 0.5s ease-in-out;
+}

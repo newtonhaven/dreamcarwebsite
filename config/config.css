@@ -19,6 +19,7 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
+    font-family: "roboto", sans-serif;
   }
 
   /* Style select boxes */
@@ -39,5 +40,17 @@
     background-color: #00acf7;
     color: rgb(255, 255, 255);
     border: none;
+    cursor: pointer;
   }
+
+  footer {
+    background-color: rgb(17, 81, 134);
+    color: white;
+    padding: 13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+  a { color: inherit; } 
+  
   
