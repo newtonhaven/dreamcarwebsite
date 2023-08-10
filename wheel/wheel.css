@@ -1,0 +1,70 @@
+a { color: inherit; } 
+#imageContainer {transition: transform 0.5s ease-in-out;}
+
+div{min-height: 50vh;}
+#carNamesText{
+    font-size: 1.7rem;
+    font-weight: 100;
+    text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+             1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+#displayText{
+    font-size:1.4rem;
+    font-style: oblique;
+    text-shadow: 1px 0 #000000, -1px 0 #000000, 0 1px #000000, 0 -1px #000000,
+    1px 1px #000000, -1px -1px #000000, 1px -1px #000000, -1px 1px #000000;
+}
+
+html{
+    text-align: center;
+    background-color: darkgray;
+    font-family: 'Roboto', sans-serif;
+
+    color: white;
+}
+#imageContainer{
+    width: 30%;
+    height: auto;
+}
+
+#imageContainer2 {
+    max-width: 40%; 
+    max-height: auto;
+}
+
+footer {
+    background-color: rgb(17, 81, 134);
+    color: white;
+    padding: 13px;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#rotate-button {
+    background-color: #ff2800;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+@media only screen and (orientation: portrait)  {
+    #imageContainer{
+        width: 80%;
+        height: auto;
+    }
+    
+    #imageContainer2 {
+        max-width: 80%; 
+        max-height: auto;
+    }
+
+    #rotate-button{
+        font-size: 30px;
+    }
+}

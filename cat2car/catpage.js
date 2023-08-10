@@ -8,6 +8,7 @@ function buttonFunction(catSelection1, event) {
     var imageSource = imagePath + catSelection1 + ".webp";
     console.log("imageSource value:", imageSource); // debugging statement
     document.getElementById("imageContainer2").src = imageSource;
+    document.getElementById("imageContainer2").scrollIntoView();
     event.preventDefault(); // prevent form from submitting
 
     /*replace console.log lines with text.innerHTML = ""; in the switch case code block below*/
