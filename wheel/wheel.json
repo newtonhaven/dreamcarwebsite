@@ -3,181 +3,151 @@
         "id": "1",
         "path": "wheel/img/multipla.webp",
         "title": "Fiat Multipla",
-        "desription": "Found the legend!"
+        "description": "Found the legend!"
     },
     {
         "id": "2",
         "path": "wheel/img/juke.webp",
         "title": "Nissan Juke",
-        "desription": "The Nissan Juke Award!"
+        "description": "The Nissan Juke Award!"
     },
     {
         "id": "3",
         "path": "wheel/img/orochi.webp",
         "title": "Mitsuoka Orochi",
-        "desription": "\"Want some drug\" smile"
+        "description": "\"Want some drug\" smile"
     },
     {
         "id": "4",
         "path": "wheel/img/cyber.webp",
         "title": "Tesla Cybertruck",
-        "desription": "Ugh.."
+        "description": "Ugh.."
     },
     {
         "id": "5",
         "path": "wheel/img/cube.webp",
         "title": "Nissan Cube",
-        "desription": "just why?"
+        "description": "just why?"
     },
     {
         "id": "6",
         "path": "wheel/img/cx.webp",
         "title": "Citroën CX Safari by Jeremy Clarkson",
-        "desription": "Best motorhome ever!"
+        "description": "Best motorhome ever!"
     },
     {
         "id": "7",
         "path": "wheel/img/t600.webp",
         "title": "Tango T600",
-        "desription": "This ugly bustard has 805hp and 1355nm tork"
+        "description": "This ugly bustard has 805hp and 1355nm tork"
     },
     {
         "id": "8",
         "path": "wheel/img/beetle.webp",
         "title": "Will.i.am - Volkswagen Beetle 1958",
-        "desription": "Did you know that Will.i.am spend 900 000$ for this car to create?"
+        "description": "Did you know that Will.i.am spend 900 000$ for this car to create?"
     },
     {
         "id": "9",
         "path": "wheel/img/reliant.webp",
         "title": "Reliant Robin",
-        "desription": " "
+        "description": " "
     },
     {
         "id": "10",
         "path": "wheel/img/w31.webp",
         "title": "Mercedes-Benz W31",
-        "desription": "Different kind worst"
+        "description": "Different kind worst"
     },
     {
         "id": "11",
         "path": "wheel/img/h2.webp",
         "title": "Hummer H2",
-        "desription": "Hummer H2 is a car for people who don't know what they want( I cound't find joke,Copilot wrote it)"
+        "description": "Hummer H2 is a car for people who don't know what they want( I cound't find joke,Copilot wrote it)"
     },
     {
         "id": "12",
         "path": "wheel/img/ix.webp",
         "title": "BMW IX",
-        "desription": "BMW wtf"
+        "description": "BMW wtf"
     },
     {
         "id": "13",
         "path": "wheel/img/startech.webp",
         "title": "Startech Range Rover Pickup",
-        "desription": "I'm not sure which one is worse this or cabrio SUVs"
+        "description": "I'm not sure which one is worse this or cabrio SUVs"
     },
     {
         "id": "14",
         "path": "wheel/img/ssr.webp",
         "title": "Chevrolet SSR",
-        "desription": "2004 was not a good year for Chevy"
+        "description": "2004 was not a good year for Chevy"
     },
     {
         "id": "15",
         "path": "wheel/img/raptor.webp",
         "title": "Regal Raptor",
-        "desription": "best raptor ever"
+        "description": "best raptor ever"
     },
     {
         "id": "16",
-        "path": "wheel/img/saipa.webp",
+        "path": "wheel/img/logan.webp",
         "title": "Saipa Cadila 2023",
-        "desription": "Is this Iranian brand car look similar? Yes it's based on Dacia Logan 2004."
+        "description": "Is this Iranian brand car look similar? Yes it's based on Dacia Logan 2004."
     },
     {
         "id": "17",
-        "path": "wheel/img/",
+        "path": "wheel/img/omega.webp",
         "title": "Huazi Omega",
-        "desription": "small led f*ck fest"
+        "description": "small led f*ck fest"
     },
     {
         "id": "18",
-        "path": "wheel/img/",
+        "path": "wheel/img/iris.webp",
         "title": "Tata Magic Iris",
-        "desription": "Named iris bc burns your iris"
+        "description": "Named iris bc burns your iris"
     },
     {
         "id": "19",
-        "path": "wheel/img/",
+        "path": "wheel/img/puma.webp",
         "title": "Youabian Puma",
-        "desription": "Joe Pesci: \"What the Fuck Is This Piece of Shit?\""
+        "description": "Joe Pesci: \"What the Fuck Is This Piece of Shit?\""
     },
     {
         "id": "20",
         "path": "wheel/img/compass.webp",
         "title": "First gen Jeep Compass",
-        "desription": " "
+        "description": " "
     },
     {
         "id": "21",
         "path": "wheel/img/scargo.webp",
         "title": "Nissan S Cargo",
-        "desription": "Cube and this, i'm glad nissan leave geometric shapes and start doing proper car design."
+        "description": "Cube and this, i'm glad nissan leave geometric shapes and start doing proper car design."
     },
     {
         "id": "22",
         "path": "wheel/img/ecosport.webp",
         "title": "Ford Ecosport",
-        "desription": "Selling this next to Puma"
+        "description": "Selling this next to Puma"
     },
     {
         "id": "23",
-        "path": "wheel/img/",
+        "path": "wheel/img/evoque.webp",
         "title": "Range Rover Evoque convertible",
-        "desription": "Just bc people want it, DOESN'T MEAN YOU SHOULD PRODUCE!"
-    }
-    // ,{
-    //     "id": "24",
-    //     "path": "wheel/img/",
-    //     "title": " ",
-    //     "desription": " "
-    // },
-    // {
-    //     "id": "25",
-    //     "path": "wheel/img/",
-    //     "title": " ",
-    //     "desription": " "
-    // },
-    // {
-    //     "id": "26",
-    //     "path": "wheel/img/",
-    //     "title": " ",
-    //     "desription": " "
-    // },
-    // {
-    //     "id": "27",
-    //     "path": "wheel/img/",
-    //     "title": " ",
-    //     "desription": " "
-    // },
-    // {
-    //     "id": "28",
-    //     "path": "wheel/img/",
-    //     "title": " ",
-    //     "desription": " "
-    // },
-    // {
-    //     "id": "29",
-    //     "path": "wheel/img/",
-    //     "title": " ",
-    //     "desription": " "
-    // },
-    // {
-    //     "id": "30",
-    //     "path": "wheel/img/",
-    //     "title": " ",
-    //     "desription": " "
-    // }
-
+        "description": "Just bc people want it, DOESN'T MEAN YOU SHOULD PRODUCE!"
+    },
+    {
+        "id": "24",
+        "path": "wheel/img/SF1000.webp",
+        "title": "SF1000",
+        "description": "Next level shitbox"
+    },    
+    {
+        "id": "25",
+        "path": "wheel/img/zimmer.webp",
+        "title": "Mustang GT-Zimmer",
+        "description": "Abomination",
+        "ALLERT":"INCREASE JS RANDOM GEN AFTER ADDING NEW ITEMS !!!1!"
+    }    
 ]

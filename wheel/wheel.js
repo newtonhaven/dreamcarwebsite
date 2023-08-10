@@ -16,7 +16,8 @@ fetch("wheel/wheel.json")
   })
   .catch((error) => {
     console.log("Error loading JSON data"); //debug statement
-    alert("Sorry, there was a problem, please report.");
+    alert("Sorry, our bad, problem accured while loading. Will fix ASAP, you can report by creating an issue on github. Thanks for your patience.");
+    
   });
 
 rotateButton.addEventListener("click", () => {
@@ -49,11 +50,12 @@ function jsonDisplayer(rand) {
       carName.innerHTML = foundCar.title;
       displayText.innerHTML = foundCar.description;
       console.log(changeSRC.src); //debug statement
+      document.getElementById('displayText').scrollIntoView();
     }, 1000);
   }
 }
 
 function getRndInteger() {
   console.log("Random number generated"); //debug statement
-  return Math.floor(Math.random() * 30) + 1;
+  return Math.floor(Math.random() * 25) + 1;
 }
