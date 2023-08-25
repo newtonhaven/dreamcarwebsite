@@ -8,20 +8,24 @@
     <style>
       
       @media (max-width: 768px) {
+        /* For mobile phones: */
         .selector {
           flex-direction: column; /* Stack images vertically */
-            min-width: 80%; /* Adjust the width as needed */
-            min-height: 80%;
-            max-width: 80%;
-            min-width: 80%;
+            min-width: 70%; /* Adjust the width as needed */
+            min-height: 70%;
+            max-width: 70%;
+            min-width: 70%;
+          }
+          .fakead {
+            width: 60%;
+          }
         }
-      }
       
       #subtitle{background-color: #1b1a2c88;}
       p {
         text-align: center;
         -webkit-text-fill-color: #ffffff;
-        font-size: 30px;
+        font-size: 15px;
         font-family: "roboto", sans-serif;
       }
 
@@ -35,12 +39,20 @@
       }
 
       .divBG {
-        background-color: #3c58b3;
+        background-color: #ffffff;
         border: solid #3c58b3;
         border-radius: 3px;
         box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
         margin-left: 10px;   
       }
+      .divBG3 {
+        background-color: #b4afaf;
+        border: solid #3c58b3;
+        border-radius: 3px;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+        margin-left: 10px;   
+      }
+
       .divBG2 {
         background-color: #3c58b3;
         border: solid #3c58b3;
@@ -72,13 +84,13 @@
       body {background-image: url("site/bg.webp");}
 
       footer {
-    background-color: rgb(17, 81, 134);
-    color: white;
-    padding: 13px;
-    position: absolute;
-    left: 0;
-    right: 0;
-}
+        background-color: rgb(17, 81, 134);
+        color: white;
+        padding: 13px;
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
       
     </style>
   </head>
@@ -107,25 +119,39 @@
           />
         </a>
       </div>
-      <div class="divBG">
+      <div class="divBG3">
         <a href="cat2car.html">
           <img
             src="site/cat2car.webp"
-            alt="Which Car is Which Cat Page image(click to go)"
+            alt="Which Cat Page image(click to go)"
             style="width: 100%; height: 100%"
           />
         </a>
       </div>
-      <div class="divBG2">
-        <a href="wheel.html">
-          <img
-            src="site/test3.webp"
-            alt="on progress"
-            style="width: 100%; height: 100%"
-          />
-        </a>
-      </div>
-      </h2>
+    </h2>
+
+    <h2 class="selector">
+    <div class="divBG3">
+      <a href="https://guessthecar.page">
+        <img
+          src="site/whichcar.webp"
+          alt="Which Car. Daily Guess Game (click to go)"
+          style="width: 100%; height: 100%"
+        />
+      </a>
+    </div>
+
+    <div class="divBG2">
+      <a href="wheel.html">
+        <img
+          src="site/test3.webp"
+          alt="on progress"
+          style="width: 100%; height: 100%"
+        />
+      </a>
+    </div>
+  </h2>
+
     <a href="fakead.html">
     <h3 class="fakead">    
       <img
@@ -133,7 +159,7 @@
         alt="Fake Ad Single Shitbox finder (click to go)"
         style="width: 50%; height: 50%"
       />
-        </a>
+    </a>
     </h3>
     
     <footer>
