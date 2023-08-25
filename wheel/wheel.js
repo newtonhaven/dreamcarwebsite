@@ -50,7 +50,7 @@ function jsonDisplayer(rand) {
       carName.innerHTML = foundCar.title;
       displayText.innerHTML = foundCar.description;
       console.log(changeSRC.src); //debug statement
-      document.getElementById('displayText').scrollIntoView();
+      document.getElementById('displayText').scrollIntoView({ behavior: "smooth" });
     }, 1000);
   }
 }
