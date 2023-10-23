@@ -1,4 +1,7 @@
-// Path: wheel\wheel.js
+// Copyright (c) 2023 Sami Aktuğ
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, version 3 of the License.
 const rotatingImage = document.getElementById("imageContainer");
 const rotateButton = document.getElementById("rotate-button");
 var changeSRC = document.getElementById("imageContainer2");

@@ -1,6 +1,7 @@
 p {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
 button {
@@ -55,11 +56,24 @@ select[name="cat"] {
 }
 
 footer {
-    background-color: rgb(17, 81, 134);
+    background-color: #115186;
     color: white;
-    padding: 13px;
+    padding: 15px;
     position: absolute;
     left: 0;
     right: 0;
 }
 a { color: inherit; } 
+
+.pattern {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -99;
+    top: 0;
+
+    background-color: #e5e5e5;
+    opacity: 0.65;
+    background: radial-gradient(circle, transparent 20%, #e5e5e5 20%, #e5e5e5 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #e5e5e5 20%, #e5e5e5 80%, transparent 80%, transparent) 100px 100px, linear-gradient(#115186 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #115186 8px, #e5e5e5 8px) -4px 0;
+    background-size: 200px 200px, 200px 200px, 100px 100px, 100px 100px;
+  }
