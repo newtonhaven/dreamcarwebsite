@@ -1,83 +1,91 @@
-<!-- Copyright (c) 2023 Sami Aktuğ
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, version 3 of the License. -->
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang="en">
   <head>
     <title>DreamCarFinder</title>
     <meta charset="UTF-8">
     <meta name="description" content="Discover your REAL dream car that you had no idea exists, through selecting your preferred configuration. Dream Car Finder">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="config/config.js" defer=""></script>
-    <link rel="stylesheet" href="config/config.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
   </head>
 
   <body>
-    <h1 class="center"> <!--  TITLE  -->
-      <a href="index.html">
-        <img
-          src="site/title.webp"
-          alt="Dream Car Finder Title İmage (click to go)"
-          style="width: 30%; height: 30%"
-        />
-      </a>
-    </h1>
-    <p id="author">Welcome to the home of shitboxes</p>
+    <div class="container">
+      <header class="site-header">
+        <a href="index.html">
+          <img
+            src="site/title.webp"
+            alt="Dream Car Finder Title"
+            class="logo-img"
+          />
+        </a>
+        <br>
+        <p class="subtitle">Welcome to the home of shitboxes</p>
+      </header>
 
-    <form name="dreamCarFinder">
-      <div class="event">
-        <select id="mySelect">
-          <option value="enginePlacement" disabled="disabled" selected>
-            Engine Placement
-          </option>
-          <option value="front">Front Engine</option>
-          <option value="mid">Mid Engine</option>
-          <option value="rear">Rear Engine</option>
-        </select>
+      <main>
+        <div class="form-container" style="margin: 0 auto;">
+          <form name="dreamCarFinder">
+            <div class="event">
+              <select id="mySelect">
+                <option value="enginePlacement" disabled="disabled" selected>
+                  Engine Placement
+                </option>
+                <option value="front">Front Engine</option>
+                <option value="mid">Mid Engine</option>
+                <option value="rear">Rear Engine</option>
+              </select>
 
-        <select id="mySelect2">
-          <option value="Driving" disabled="disabled" selected>Driving</option>
-          <option value="fwd">FWD</option>
-          <option value="rwd">RWD</option>
-          <option value="awd">AWD</option>
-        </select>
+              <select id="mySelect2">
+                <option value="Driving" disabled="disabled" selected>Driving</option>
+                <option value="fwd">FWD</option>
+                <option value="rwd">RWD</option>
+                <option value="awd">AWD</option>
+              </select>
 
-        <select id="mySelect3">
-          <option value="Induction Type" disabled="disabled" selected>
-            Induction Type
-          </option>
-        </select>
+              <select id="mySelect3">
+                <option value="Induction Type" disabled="disabled" selected>
+                  Induction Type
+                </option>
+              </select>
 
-        <button
-          id="myButton"
-          style="text-align: center"
-          onclick="buttonFunction(selectbox3.value,event)"
-          disabled
-        >
-          Find Your Car!
-        </button>
+              <button
+                id="myButton"
+                onclick="buttonFunction(selectbox3.value,event)"
+                disabled
+                style="width: 100%; margin-top: 10px;"
+              >
+                Find Your Car!
+              </button>
+            </div>
+          </form>
+           <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.7;">(it may take time to load the img pls be patient)</p>
+        </div>
 
-        <p id="author">(it may take time to load the img pls be patient)</p>
+        <div class="result-area" style="text-align: center;">
+          <img
+            id="imageContainer"
+            src="carIMGs/moon.webp"
+            class="result-img"
+            style="max-width: 600px; width: 100%;"
+          />
+        </div>
+      </main>
+    </div>
 
-        <img
-          id="imageContainer"
-          src="carIMGs/moon.webp"
-          style="width: 50%; height: 50%"
-        />
-        <footer>
-          <a
-            href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE"
-            target="_top"
-            >The software of this product is licensed under the GNU General
-            Public License v3.0.
-          </a>
-        </footer>
-      </div>
-    </form>
+    <footer>
+      <p>
+        <a
+          href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE"
+          target="_blank"
+          >The software of this product is licensed under the GNU General
+          Public License v3.0.
+        </a>
+      </p>
+    </footer>
   </body>
 </html>

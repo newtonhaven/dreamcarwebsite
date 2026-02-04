@@ -1,62 +1,66 @@
-<!-- Copyright (c) 2023 Sami Aktuğ
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, version 3 of the License. -->
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang="en">
   <head>
     <title>DreamCarFinder</title>
     <meta charset="UTF-8">
     <meta name="description" content="Dream Car Finder! Discover Best of the Worst Cars!">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="wheel/wheel.js" defer=""></script>
-    <link rel="stylesheet" href="wheel/wheel.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
   </head>
 
   <body>
+    <div class="pattern"></div> 
 
-    <header>
-    <h1 class="titleImage">
-      <a href="index.html">
+    <div class="container">
+      <header class="site-header">
+        <a href="index.html">
+          <img
+            src="site/title.webp"
+            alt="Dream Car Finder Home Page Title"
+            class="logo-img"
+          /></a>
+      </header>
+
+      <main class="wheel-container">
         <img
-          src="site/title.webp"
-          alt="Dream Car Finder Home Page Title (click to go)"
-          style="width: 30%; height: 30%"/>
-      </a>
-    </h1>
-</header>
+          id="imageContainer"
+          src="wheel/img/wheel1.webp"
+          alt="Wheel of the Worst Cars"
+          class="wheel-img"
+        />
 
-      <div class="pattern"></div>
-      <img
-        id="imageContainer"
-        src="wheel/img/wheel1.webp"
-        alt="Wheel of the Worst Cars"/>
+        <br><br>
+        <button id="rotate-button">SBINNALA!</button>
+        <br><br>
 
-
-      <br></br>
-      <button id="rotate-button">SBINNALA!</button>
-      <br></br>
-      <div>
-      <img
-        id="imageContainer2"
-        src="wheel/img/garage.webp"
-        alt="cars comes here"/>
-        <p id="carNamesText"></p>
-        <p id="displayText"></p>
-      </div>
-
+        <div class="result-area">
+          <img
+            id="imageContainer2"
+            src="wheel/img/garage.webp"
+            alt="cars comes here"
+            class="result-img"
+            style="max-width: 400px;"
+          />
+            <p id="carNamesText" class="wheel-result-text"></p>
+            <p id="displayText" class="result-text-secondary" style="font-style: oblique;"></p>
+        </div>
+      </main>
+    </div>
 
     <footer>
+      <p>
       <a
         href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE"
-        target="_top"
+        target="_blank"
         >The software of this product is licensed under the GNU General Public
         License v3.0.
       </a>
-</footer>
+      </p>
+    </footer>
   </body>
 </html>

@@ -1,84 +1,88 @@
-<!-- This code is the HTML for the cat2car. It allows the user to select a cat breed from a drop-down menu, and then click a button to find a car that is appropriate for that breed. The code also displays a picture of a cat and a picture of a car, as well as the title of the page and a subtitle. -->
-<!-- Copyright (c) 2023 Sami Aktuğ
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, version 3 of the License. -->
 <!DOCTYPE html>
-<html lang=”en”>
+<html lang="en">
   <head>
     <title>DreamCarFinder</title>
     <meta charset="UTF-8">
     <meta name="description" content="Dream Car Finder, discover your favorite cat is which car!">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="cat2car/catpage.js" defer=""></script>
-    <link rel="stylesheet" href="cat2car/catpage.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
   </head>
 
   <body>
-    <div class='pattern'></div>
-    <h1 class="titleImage">
-      <a href="index.html">
-        <img
-          src="site/title.webp"
-          alt="Dream Car Finder Home Page Title (click to go)"
-          style="width: 30%; height: 30%"
-      /></a>
-    </h1>
-    <p class="center" id="subtitle">Welcome to the home of shitboxes</p>
-    <h2>
-      <img
-        id="imageContainer"
-        src="catIMGs/menu.webp"
-        style="width: 40%; height: 40%"
-        alt="Cat2Car Cat kinds and names Image"
-      />
-    </h2>
-    <div class="selector">
-      <h3>
-        <select name="cat" id="catSelection">
-          <option value="test2" disabled="disabled" selected>Car By Cat</option>
-          <option value="persian">Persian Cat</option>
-          <option value="siamese">Siamese Cat</option>
-          <option value="mainecoon">Maine Coon</option>
-          <option value="savannah">Savannah</option>
-          <option value="scottish">Scottish Cat</option>
-          <option value="sphynx">Sphynx Cat</option>
-          <option value="bornana">Domestic Orange</option>
-          <option value="black">Domestic Black</option>
-          <option value="zelda">Your Cat Zelda</option>
-        </select>
-      </h3>
-      <button
-        id="Button"
-        style="text-align: center"
-        onclick="buttonFunction(catSelection.value,event)"
-      >
-        Find Your Car!
-      </button>
+   
+    <div class="container">
+      <header class="site-header">
+        <a href="index.html">
+          <img
+            src="site/title.webp"
+            alt="Dream Car Finder Home Page Title"
+            class="logo-img"
+        /></a>
+        <br>
+        <p class="subtitle">Welcome to the home of shitboxes</p>
+      </header>
+
+      <main>
+        <div class="form-container" style="margin: 0 auto;">
+          <img
+            id="imageContainer"
+            src="catIMGs/menu.webp"
+            style="width: 500px; height: auto; margin-bottom: 20px;"
+            alt="Cat2Car Cat kinds and names Image"
+          />
+          
+          <div class="selector">
+            <select name="cat" id="catSelection">
+              <option value="test2" disabled="disabled" selected>Car By Cat</option>
+              <option value="persian">Persian Cat</option>
+              <option value="siamese">Siamese Cat</option>
+              <option value="mainecoon">Maine Coon</option>
+              <option value="savannah">Savannah</option>
+              <option value="scottish">Scottish Cat</option>
+              <option value="sphynx">Sphynx Cat</option>
+              <option value="bornana">Domestic Orange</option>
+              <option value="black">Domestic Black</option>
+              <option value="zelda">Your Cat Zelda</option>
+            </select>
+            
+            <button
+              id="Button"
+              onclick="buttonFunction(catSelection.value,event)"
+            >
+              Find Your Car!
+            </button>
+          </div>
+        </div>
+
+        <div class="result-area" style="text-align: center;">
+          <img
+            id="imageContainer2"
+            src="site/cat2car.webp"
+            alt="cars comes here"
+            class="result-img"
+            style="max-width: 500px; width: 100%;"
+          />
+          <p id="carNamesText" class="result-text-primary"></p>
+          <p id="displayText" class="result-text-secondary"></p>
+        </div>
+      </main>
     </div>
-    <h4>
-      <div>
-      <img
-        id="imageContainer2"
-        src="site/cat2car.webp"
-        alt="cars comes here"
-        style="width: 40%; height: 40%"/>
-        <p id="carNamesText"></p>
-        <p id="displayText"></p>
-      </div>
-    </h4>
+
     <footer>
-      <!--  LISENCE  -->
-      <a
-        href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE"
-        target="_top"
-        >The software of this product is licensed under the GNU General Public
-        License v3.0.
-      </a>
+      <p>
+        <!--  LICENSE  -->
+        <a
+          href="https://github.com/newtonhaven/dreamcarwebsite/blob/main/LICENSE"
+          target="_blank"
+          >The software of this product is licensed under the GNU General Public
+          License v3.0.
+        </a>
+      </p>
     </footer>
   </body>
 </html>
